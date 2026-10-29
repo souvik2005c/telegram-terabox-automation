@@ -1,0 +1,25 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Telegram sessions
+*.session
+*.session-journal
+
+# Private data and generated links
+jobs.db
+links.txt
+output.txt
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
